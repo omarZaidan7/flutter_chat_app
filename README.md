@@ -1,16 +1,41 @@
-# flutter_chat_app
+# Flutter Chat App 💬
 
-A new Flutter project.
+A simple real-time chat application built with **Flutter** and **Firebase**.  
+This project demonstrates authentication, user list, and 1-to-1 messaging with chat bubbles.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- 🔐 User Authentication (Firebase Auth)
+- 👥 User List with emails
+- 💬 Real-time Messaging (Cloud Firestore)
+- 📱 Clean UI with custom chat bubbles
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- **Frontend:** Flutter (Dart)  
+- **Backend:** Firebase Authentication, Cloud Firestore  
+- **State Management:** Provider 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+- Install [Flutter SDK](https://docs.flutter.dev/get-started/install)  
+- Set up a Firebase project and add `google-services.json` / `GoogleService-Info.plist`
+
+### Installation
+```bash
+# Clone the repo
+git clone https://github.com/YOUR_USERNAME/flutter_chat_app.git
+
+# Go to project folder
+cd flutter_chat_app
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
