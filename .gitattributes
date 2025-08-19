@@ -1,0 +1,9 @@
+# Identify Dart files as Dart
+*.dart linguist-language=Dart
+
+# Treat generated files as vendored (ignored in GitHub language stats)
+*.g.dart linguist-generated=true
+*.freezed.dart linguist-generated=true
+
+# Normalize line endings
+* text=auto
